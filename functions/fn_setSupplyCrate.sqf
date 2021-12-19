@@ -1,4 +1,6 @@
-switch (str side _p) do {
+_p = _this select 0;
+
+_array_of_crates = switch (str side _p) do {
 
 	case "WEST" : {["B_supplyCrate_F"]};
 	case "EAST" : {["O_supplyCrate_F"]};
@@ -6,3 +8,5 @@ switch (str side _p) do {
 	case "CIV" : {["C_supplyCrate_F"]};
 	default {["B_supplyCrate_F"]};
 };
+
+_array_of_crates
