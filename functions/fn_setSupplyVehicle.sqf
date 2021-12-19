@@ -1,4 +1,4 @@
-_array_of_vehicles = switch (str side _p) do {
+switch (str side _p) do {
 
 	case "WEST" : {[["NLD_C130H_VIV", 900], ["NLD_CH47F_ViV", 300], ["NLD_NH90", 300]]};
 	case "EAST" : {[["O_T_VTOL_02_vehicle_dynamicLoadout_F", 500], ["O_Heli_Transport_04_box_F", 300], ["CUP_O_Mi8_VIV_RU", 300]]};
